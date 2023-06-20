@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+}
+.info{
+    width: 416px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.info-personal{
+    margin-bottom: 30px;
+}
+
+.info-personal .foto{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+   border: 5px solid #484848;
+
+}
+
+.info-personal span{
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.info-personal p{
+    font-size: 16px;
+    color: #8a8a8a;
+}
+
+nav ul{
+    list-style: none;
+    
+}
+nav ul li{
+    margin: 15px 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: #dc3545;
+}
+
+.selection{
+    color: #dc3545;
+}
+
+.pikaso{
+    width: 100%;
+    background:  url(../image/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.pikaso h1{
+    font-size: 68px;
+    color: #fff;
+}
+
+.pikaso h1 .rojo{
+    color: #dc3545;
+}
+
+.pikaso p{
+    font-size: 32px;
+    color: #fff;
+}
+
+.boton{
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 3px solid #dc3545;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.boton:hover{
+    background-color: rgb(202, 137, 137);
+    color: #000;
+}
+
+
+

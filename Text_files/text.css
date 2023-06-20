@@ -1,0 +1,12 @@
+*{
+    font-family: Comic Sans MS;
+    margin-top: 15px;
+}
+.text p {
+    line-height: 35px;
+    text-align: justify;
+    font-size: larger;
+    text-indent: 50px;
+}
+
+
